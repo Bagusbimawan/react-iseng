@@ -13,14 +13,14 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-200 h-screen sm:h-screen">
-        <div className="flex sm:flex-row flex-col ">
+      <div className="bg-gray-200 h-screen md:h-screen">
+        <div className="flex md:flex-row flex-col ">
           <div>
             <div>
-              <h1 className="text-5xl ml-9 mb-4 mt-24 font-medium sm:ml-28 sm:mt-32 sm:mb-4">
+              <h1 className="text-5xl ml-9 mb-4 mt-24 font-medium md :ml-28 md:mt-32 md :mb-4">
                 Why Choose Us
               </h1>
-              <p className="max-w-md  ml-10 text-base text-gray-700 fo sm:ml-28 font-sans ">
+              <p className="max-w-md  ml-10 text-base text-gray-700 fo md:ml-28 font-sans ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
                 assumenda sequi quaerat, eum necessitatibus quis similique
                 recusandae, sapiente consequatur porro quasi illo omnis
@@ -29,38 +29,38 @@ const About = () => {
             </div>
 
             <div>
-              <div className="flex sm:flex-row  sm:mt-7 sm:gap-5">
-                <div className=" sm:w-80 sm:ml-28 ml-10 sm:mt-0 mt-4">
+              <div className="flex md:flex-row  md :mt-7 md :gap-5">
+                <div className=" md:w-80 md:ml-28 ml-10 md :mt-0 mt-4">
                   <FontAwesomeIcon icon={faTruckFast} fontSize={28} />
                   <h2 className="my-2">Fast response</h2>
-                  <p className="sm:text-base text-sm text-gray-500">
+                  <p className="md :text-base text-md  text-gray-500">
                     Donec vitae odio quis nisl dapibus malesuada. Nullam ac
                     aliquet velit. Aliquam vulputate.
                   </p>
                 </div>
-                <div className="sm:w-80  sm:ml-0 ml-10 sm:mt-0 mt-4">
+                <div className="md :w-80  md:ml-0 ml-10 md:mt-0 mt-4">
                   <FontAwesomeIcon icon={faBagShopping} fontSize={28} />
                   <h2 className="my-2">Easy to shop</h2>
-                  <p className="sm:text-base text-sm text-gray-500">
+                  <p className="md :text-base text-md  text-gray-500">
                     Donec vitae odio quis nisl dapibus malesuada. Nullam ac
                     aliquet velit. Aliquam vulputate.
                   </p>
                 </div>
               </div>
 
-              <div className="flex sm:flex-row  sm:ml-28 sm:gap-5 sm:mt-7 ">
-                <div className="sm:w-80 sm:ml-0 ml-10 sm:mt-0 mt-4">
+              <div className="flex md:flex-row  md :ml-28 md:gap-5 md :mt-7 ">
+                <div className="md :w-80 md :ml-0 ml-10 md :mt-0 mt-4">
                   <FontAwesomeIcon icon={faTty} fontSize={28} />
                   <h2 className="my-2">24/7 support </h2>
-                  <p className="sm:text-base text-sm text-gray-500">
+                  <p className="md :text-base text-md  text-gray-500">
                     Donec vitae odio quis nisl dapibus malesuada. Nullam ac
                     aliquet velit. Aliquam vulputate.
                   </p>
                 </div>
-                <div className="sm:w-80 sm:ml-0 ml-10 sm:mt-0 mt-4">
+                <div className="md :w-80 md :ml-0 ml-10 md :mt-0 mt-4">
                   <FontAwesomeIcon icon={faArrowsRotate} fontSize={28} />
                   <h2 className="my-2">hassle free returns</h2>
-                  <p className="sm:text-base text-sm text-gray-500">
+                  <p className="md :text-base text-md  text-gray-500">
                     Donec vitae odio quis nisl dapibus malesuada. Nullam ac
                     aliquet velit. Aliquam vulputate.
                   </p>
@@ -69,7 +69,7 @@ const About = () => {
             </div>
           </div>
           <div>
-            <img src={MyImage} alt="" className="sm:mt-24 sm:max-w-xl max-w-md"/>
+            <img src={MyImage} alt="" className="md:mt-24 md :max-w-xl max-w-md"/>
           </div>
         </div>
       </div>
