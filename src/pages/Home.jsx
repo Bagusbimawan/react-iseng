@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-green-900 h-full md:max-w-full w-full md:h-screen">
+      <div className="md:bg-green-900  bg-green-900 h-full md:max-w-full w-full md:h-screen">
         <div className="flex ">
           <div className="flex flex-col md:flex-row">
             <div className="flex-1 ">
@@ -23,10 +23,10 @@ const Home = () => {
                 sapiente, aliquam veniam repellendus exercitationem.
               </p>
               <div className="flex flex-row gap-2">
-                <button className="ml-12 md:ml-28 border p-2 w-44 text-black bg-yellow-400 rounded-xl  my-3 font-medium">
+                <button className="ml-12 md:ml-28 border p-2 w-44 text-black bg-yellow-400 rounded-xl mt-2 font-medium">
                   Shop Now
                 </button>
-                <button className=" border p-2 w-44 text-white rounded-xl  my-3 font-medium">
+                <button className=" border p-2 w-44 text-white rounded-xl  mt-2  font-medium">
                   Explore
                 </button>
               </div>
@@ -34,8 +34,7 @@ const Home = () => {
             <img
               src={Myimage}
               alt=""
-              style={{ width: "500px", height: "450px" }}
-              className="md:ml-52 ml-2 "
+              className="md:ml-52 ml-2 md:max-w-sm max-w-sm"
             />
           </div>
         </div>
