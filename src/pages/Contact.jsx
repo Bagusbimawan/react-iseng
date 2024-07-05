@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="md:bg-gray-200 bg-gray-200 md:h-screen h-full flex w-full md:w-full md:flex-row flex-col items-center">
+      <div className="md:bg-gray-200 bg-gray-200 md:h-full h-full flex w-full md:w-full md:flex-row flex-col items-center">
         <div>
           <img src={Myimage} alt="" className="md:max-w-xl max-w-sm"/>
         </div>
