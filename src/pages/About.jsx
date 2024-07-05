@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="md:bg-gray-200 bg-gray-200 h-full md:h-screen w-full md:w-full">
+      <div className="md:bg-gray-200 bg-gray-200 h-full md:h-screen w-full md:w-full items-center">
         <div className="flex md:flex-row flex-col ">
           <div>
             <div>

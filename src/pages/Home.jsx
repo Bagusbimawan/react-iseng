@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="md:bg-green-900  bg-green-900 h-full md:max-w-full w-full md:h-screen">
+      <div className="md:bg-green-900  bg-green-900 h-full md:max-w-full w-full md:h-screen items-center">
         <div className="flex ">
           <div className="flex flex-col md:flex-row">
             <div className="flex-1 ">
